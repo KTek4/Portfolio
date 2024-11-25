@@ -2,12 +2,126 @@
 <html lang="en">
 
 <head>
-<!-- TODO: add head content below -->
-
+    <title>Kalana Ranatunga's Programmer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-<!-- TODO: add body content below -->
+    <!--
+        WHEN I load their portfolio
+        THEN I am presented with the developer's name, 
+        a recent photo or avatar, and links to sections about them,
+        their work, and how to contact them
+    -->
+    <header>
+        <h1>Kalana Ranatunga's Portfolio</h1>
+        <!--
+        WHEN I click one of the links in the navigation
+        THEN the UI scrolls to the corresponding section
+    -->
+        <nav class="nav">
+            <a href="#About me">About Me</a>
+            <a href="#My Projects">My Projects</a>
+            <a href="#Contact Me">Contact Me</a>
+            <a href="#Resume">Resume</a>
+        </nav>
+    </header>
+    <div class="hero-banner">
+        <h2>These are subtitles!</h2>
+    </div>
+    <!--
+        WHEN I click on the link to the section about their work
+        THEN the UI scrolls to a section with titled images of 
+        the developer's applications
+    -->
+
+    <!--
+        WHEN I am presented with the developer's first application
+        THEN that application's image should be 
+        larger in size than the others
+    -->
+
+    <!--
+       WHEN I click on the images of the applications
+       THEN I am taken to that deployed application 
+    -->
+
+    <main class="page-wrapper">
+        <a href="About Me"></a>
+        <div class="page-section">
+            <h2 id="About Me">About Me</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <a href="My Projects"></a>
+        <section class="page-section" id="My Projects">
+            <h2>Work</h2>
+            <div class="flex-container">
+                <a class="flex-item surf-report" href="https://ktek4.github.io/Challenge01/">
+                    <figure>
+                        <div>
+                            <h3>Surf Report</h3>
+                            Basic, HTML, CSS, & Javascript
+                        </div>
+                    </figure>
+                </a>
+                </figure>
+                <figure class="flex-item run-buddy">
+                    <div>
+                        <h3>Run Buddy</h3>
+                        HTML/CSS
+                    </div>
+                </figure>
+                <figure class="flex-item led-wall">
+                    <div>
+                        <h3>LED Wall</h3>
+                        Node/IoT
+                    </div>
+                </figure>
+                <figure class="flex-item react-calc">
+                    <div>
+                        <h3>Calculator</h3>
+                        React/JavaScript/CSS
+                    </div>
+                </figure>
+                <figure class="flex-item pastel-puzzles">
+                    <div>
+                        <h3>Pastel Puzzles</h3>
+                        MERN Stack
+                    </div>
+                    
+                </figure>
+            </div>
+        </section>
+        <a href="Contact Me"></a>
+        <div class="page-section">
+            <h2 id="Contact Me">Contact</h2>
+            <div class="contact">
+                <address>
+                    <a href="#">(123)-456-7890</a>
+                    <a href="#">Github</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">somebody123@email.com</a>
+                </address>
+            </div>
+        </div>
+    </main>
+
+    <!--
+       WHEN I resize the page or 
+       view the site on various screens and devices
+       THEN I am presented with a responsive layout 
+       that adapts to my viewport 
+       i.e flex
+    -->
 
 </body>
 
